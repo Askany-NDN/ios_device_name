@@ -2,9 +2,6 @@ library ios_device_name;
 
 /// A IOSDeviceName.
 class IOSDeviceName {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-
   /// Pass [identifier] for detect device name.
   /// Return [String] is name of device.
   String mapToDevice(String identifier) {
@@ -88,6 +85,14 @@ class IOSDeviceName {
         return "iPhone SE (2nd generation)";
       case "iPhone14,6":
         return "iPhone SE (3rd generation)";
+      case "iPhone14,7":
+        return "iPhone 14";
+      case "iPhone14,8":
+        return "iPhone 14 Plus";
+      case "iPhone15,2":
+        return "iPhone 14 Pro";
+      case "iPhone15,3":
+        return "iPhone 14 Pro Max";
       case "iPad2,1":
       case "iPad2,2":
       case "iPad2,3":
