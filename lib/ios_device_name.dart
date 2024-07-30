@@ -2,9 +2,6 @@ library ios_device_name;
 
 /// A IOSDeviceName.
 class IOSDeviceName {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-
   /// Pass [identifier] for detect device name.
   /// Return [String] is name of device.
   String mapToDevice(String identifier) {
@@ -88,6 +85,22 @@ class IOSDeviceName {
         return "iPhone SE (2nd generation)";
       case "iPhone14,6":
         return "iPhone SE (3rd generation)";
+      case "iPhone14,7":
+        return "iPhone 14";
+      case "iPhone14,8":
+        return "iPhone 14 Plus";
+      case "iPhone15,2":
+        return "iPhone 14 Pro";
+      case "iPhone15,3":
+        return "iPhone 14 Pro Max";
+      case "iPhone15,4":
+        return "iPhone 15";
+      case "iPhone15,5":
+        return "iPhone 15 Plus";
+      case "iPhone16,1":
+        return "iPhone 15 Pro";
+      case "iPhone16,2":
+        return "iPhone 15 Pro Max";
       case "iPad2,1":
       case "iPad2,2":
       case "iPad2,3":
@@ -132,6 +145,9 @@ class IOSDeviceName {
       case "iPad13,16":
       case "iPad13,17":
         return "iPad Air (5th generation)";
+      case "iPad13,18":
+      case "iPad13,19":
+        return "iPad (10th Gen)";
       case "iPad2,5":
       case "iPad2,6":
       case "iPad2,7":
@@ -153,6 +169,15 @@ class IOSDeviceName {
       case "iPad14,1":
       case "iPad14,2":
         return "iPad mini (6th generation)";
+      case "iPad14,10":
+      case "iPad14,11":
+        return "iPad Air (13 6th Gen)";
+      case "iPad14,8":
+      case "iPad14,9":
+        return "iPad Air (11 6th Gen)";
+      case "iPad16,3":
+      case "iPad16,4":
+        return "iPad Pro (11 5th Gen)";
       case "iPad6,3":
       case "iPad6,4":
         return "iPad Pro (9.7-inch)";
